@@ -12,7 +12,7 @@ public class SignUp extends TestBase {
     public void signUp() {
        // new LoginPage().signUpLink.click();
         SignUpPage signUpPage=new SignUpPage();
-
+//new changes needed
         Faker fake=new Faker();
         signUpPage.userNameField.sendKeys(fake.name().username());
         signUpPage.firstNameField.sendKeys(fake.name().firstName());
