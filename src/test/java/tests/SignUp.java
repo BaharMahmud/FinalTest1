@@ -17,7 +17,7 @@ public class SignUp extends TestBase {
         signUpPage.userNameField.sendKeys(fake.name().username());
         signUpPage.firstNameField.sendKeys(fake.name().firstName());
         signUpPage.lastNameField.sendKeys(fake.name().lastName());
-
+//new addition
 
 
     }
