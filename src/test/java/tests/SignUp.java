@@ -10,7 +10,7 @@ public class SignUp extends TestBase {
 
     @Test
     public void signUp() {
-        new LoginPage().signUpLink.click();
+       // new LoginPage().signUpLink.click();
         SignUpPage signUpPage=new SignUpPage();
 
         Faker fake=new Faker();

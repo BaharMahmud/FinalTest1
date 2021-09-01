@@ -18,6 +18,7 @@ public class LoginTests extends TestBase {
             LoginPage loginpages = new LoginPage();
             loginpages.login("usrename1", "password1");
             loginpages.loginButtonField.click();
+            //Login info needed
         }
 
     }
